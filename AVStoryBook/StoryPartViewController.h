@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  StoryPartViewController.h
 //  AVStoryBook
 //
 //  Created by Sofia Knezevic on 2017-02-24.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PageModel.h"
 
-@interface ViewController : UIViewController
+@interface StoryPartViewController : UIViewController
 
+@property (nonatomic, strong) PageModel *thisPage;
 
 @end
-
